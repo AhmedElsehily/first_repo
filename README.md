@@ -1,6 +1,7 @@
 # first_repo
 
 A new Flutter project.
+this is my first project in Git Hub && Flutter 
 
 ## Getting Started
 
@@ -17,3 +18,8 @@ samples, guidance on mobile development, and a full API reference.
 
 # My first flutter project
 This is a flutter project for learning and practicing Git and Git Hub
+![alt text](<Screenshot 2025-07-15 053159.png>)
+
+## Project Video (My Assistant App)
+
+<video controls src="Recording 2025-07-17 144700.mp4" title="Title"></video>
