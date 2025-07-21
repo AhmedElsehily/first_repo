@@ -1,24 +1,3 @@
-<<<<<<< HEAD
-
-
-
-
-
-
-
-import 'package:app/screens/account.dart';
-import 'package:app/screens/home_page.dart';
-import 'package:app/screens/welcome.dart';
-import 'package:flutter/material.dart';
-import 'routes/app_routes.dart';
-
-
-void main() {
-  runApp(MyApp());
-}
-
-class MyApp extends StatelessWidget {
-=======
 import 'package:flutter/material.dart';
 
 void main() {
@@ -26,35 +5,19 @@ void main() {
 }
 
 class MyAssistantApp extends StatelessWidget {
->>>>>>> 90c222a2f50a29ede9d3fdfa34e83fa2d79ce2cf
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
       debugShowCheckedModeBanner: false,
-<<<<<<< HEAD
-      theme: ThemeData(
-        primarySwatch: Colors.teal,
-      ),
-      initialRoute: AppRoutes.splash,
-      routes: {
-        AppRoutes.splash: (context) => SplashScreen(),
-        AppRoutes.account: (context) => AccountPage(),
-        // AppRoutes.home: (context) => HomePage(),
-      },
-=======
       title: 'My Assistant App',
       theme: ThemeData(
         primarySwatch: Colors.blue,
       ),
       home: WelcomeScreen(),
->>>>>>> 90c222a2f50a29ede9d3fdfa34e83fa2d79ce2cf
     );
   }
 }
 
-<<<<<<< HEAD
-
-=======
 // Screen 1: Welcome Screen
 class WelcomeScreen extends StatelessWidget {
   @override
@@ -210,4 +173,3 @@ class CustomDrawer extends StatelessWidget {
     );
   }
 }
->>>>>>> 90c222a2f50a29ede9d3fdfa34e83fa2d79ce2cf
